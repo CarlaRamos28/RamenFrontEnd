@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './navbar.css'; // Import your custom CSS for the sidebar and header
+import './navbar.css';
 
 const Navbar = () => {
   return (
@@ -29,7 +29,6 @@ const Navbar = () => {
           className="sidebar w-full md:w-64 h-auto md:h-screen bg-base-200 text-base-content custom-sidebar text-white md:sticky md:top-0"
         >
           <div className="p-4">
-
             {/* Menu */}
             <h2 className="text-lg font-bold">Menu</h2>
             <ul className="mt-4">

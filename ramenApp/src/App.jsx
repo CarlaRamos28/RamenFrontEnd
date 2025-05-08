@@ -12,9 +12,9 @@ import SalesReport from './pages/salesReport';
 function App() {
   return (
     <Router>
-      <div className="app">
+      <div className="min-h-screen bg-gray-50">
         <Navbar />
-        <div className="content">
+        <main className="pt-16">
           <Routes>
             {/* Default route to show the Dashboard */}
             <Route path="/" element={<Dashboard />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/pos" element={<POS />} />
             <Route path="/sales-report" element={<SalesReport />} />
           </Routes>
-        </div>
+        </main>
       </div>
     </Router>
   );
